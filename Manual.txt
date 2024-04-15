@@ -1,0 +1,33 @@
+1 - Subir os arquivos no github com o nome sistema_botconversa (Não esqueça de colocar esse git como privado após a instalação).
+
+2 - Acessa sua VPS e apontar os seguintes subdominios (VPS deve estar com ubunto 22.4 LTS)
+
+-- app.seusite.com
+-- api.seusite.com
+-- fluxos.seusite.com
+
+3 - Com o terminal aberto rodar comando abaixo:
+
+apt update && apt -y upgrade && apt -y install curl wget sudo
+
+Após o comando abaixo atualizar sua VPS reiniciar a mesma.
+
+4 - Entrar novamente na VPS e rodar o comando instalador
+
+bash <(curl -sSL linkdogithub/)>
+
+5 - Preencer as URL conforme esta sendo pedido no instalador
+
+6 - Utilize um e-mail do gmail e crie uma senha do APP antes na opção seguranca / autenticação de dois fatores / app
+
+7 - informe a senha criada
+
+8 - informa a porta 465 do e-mail
+
+9 - Informe a URL do botconversa que você subiu no GITHUB
+
+10 - Aguarde o final da instalação
+
+11 - Copie todo o conteudo informado no final da instalação para um bloco de notas. nele terá a senha inicial e o usuário admin. acesso ao banco de dados e usuários entre outro.
+
+12 - Ao final da instalação será criada uma pasta em sua VPS chamada instalador onde contem o instalador automático utilizado no tópico 4. Copie esta pasta para seu github e quando precisar fazer uma nova instalação troque a URL do tópico 4 pela sua URL do github.
